@@ -2,8 +2,11 @@
   "name": "chat-mongo",
   "version": "1.0.0",
   "main": "src/index.js",
-  "repository": "https://github.com/P-Tiger/chat-mongo.git",
-  "author": "Phi Ho <thivvnlh@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/404-Hai/Do-an-web-.git#main"
+  },
+  "author": "Thanh Hai <thanhhai691999@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "nodemon src/index.js  --exec babel-node",
@@ -38,5 +41,11 @@
     "socket.io": "^4.0.1",
     "winston": "^3.2.1",
     "xlsx-populate": "^1.21.0"
-  }
+  },
+  "description": "social",
+  "bugs": {
+    "url": "https://github.com/404-Hai/Do-an-web-/issues"
+  },
+  "homepage": "https://github.com/404-Hai/Do-an-web-/tree/main#readme",
+  "keywords": []
 }
